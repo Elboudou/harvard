@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            .nav {
+                position: absolute;
+                margin-left: 88%;
+                margin-top: 10px;
+            }
+            form {
+                left:40%;
+                top: 100px;
+                position: absolute;
+            }
+            #titulo {
+                top: 10px;
+                margin-left: 35%;
+                position: absolute;
+            }
+            input {
+                border: 2px solid;
+                border-radius: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titulo">You are now on Image Search</h1>
+        <div class="nav">
+            Back to <a href="index.html"> Google Search</a>
+        </div>
+        <form action="http://images.google.com/images" target="_blank">
+            <input type="text" name="q" />
+            <input type="submit" value="Google Search" />
+          </form>
+    </body>
+</html>
